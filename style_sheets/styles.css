@@ -1,0 +1,77 @@
+
+body{
+    background-image: url('../resources/abhyaas_body_bg.jpg');
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+#row1{
+    display: flex;
+    justify-content: center;
+}
+#row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    max-width: 55rem;
+}
+#row3{
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+#services_image, #training_image{
+    width: 25rem;
+    cursor: pointer;
+}
+#contact_image{
+    width: 25rem;
+    cursor: pointer;
+}
+#icon1, #icon2, #icon3, #icon4{
+    cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 500px){
+    #logo{
+        width: 10rem;
+    }
+    #services_image, #training_image{
+        width: 20rem;
+    }
+    #contact_image{
+        width: 20rem;
+    }
+    #icon1, #icon2, #icon3, #icon4{
+        width: 2.5rem;
+    }
+}
+
+@media (max-width: 345px){
+    #services_image, #training_image{
+        width: 17rem;
+    }
+    #contact_image{
+        width: 17rem;
+    }
+    #icon1, #icon2, #icon3, #icon4{
+        width: 2rem;
+    }
+}
+
+
+
+
+
+
+
