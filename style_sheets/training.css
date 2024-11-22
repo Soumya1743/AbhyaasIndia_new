@@ -3,40 +3,46 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #training_main {
     display: flex;
     justify-content: center;
     flex-direction: column;
     row-gap: 1rem;
 }
+
 #head {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
 }
-#head2{
+
+#head2 {
     display: none;
 }
+
 #child_1 {
     font-size: 2.3rem;
     display: flex;
     justify-content: center;
-    background: linear-gradient(to right, #02E8FF, #0071FC, #0071FC, #FE0000, #FE0000);
-    color: transparent;
-    -webkit-background-clip: text;
     padding-left: 10rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#head2_heading{
+
+#heading,
+#heading2 {
+    color: #FE0000;
+}
+
+#head2_heading {
     font-size: 2rem;
-    background: linear-gradient(to right, #02E8FF, #0071FC, #0071FC, #FE0000, #FE0000);
-    color: transparent;
-    -webkit-background-clip: text;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 #logo {
     width: 10rem;
 }
+
 #training_row2 {
     display: flex;
     flex-wrap: wrap;
@@ -45,15 +51,18 @@ body {
     row-gap: 1rem;
     max-width: 55rem;
 }
+
 #image {
     width: 25rem;
 }
+
 #training_row3 {
     display: flex;
     justify-content: center;
     column-gap: 2rem;
     padding-top: 1rem;
 }
+
 #blue_icon1,
 #blue_icon2,
 #blue_icon3,
@@ -69,24 +78,29 @@ body {
         display: block;
         padding-left: 16%;
     }
+
     #logo {
         width: 8rem;
         float: right;
     }
-    #heading2{
+
+    #heading2 {
         text-align: center;
         margin-top: 0;
         font-size: 3rem;
     }
+
     #training_main {
         row-gap: 0rem;
     }
+
     #training_row2 {
         column-gap: 10rem;
         row-gap: 1rem;
         max-width: 35rem;
     }
-    #image{
+
+    #image {
         width: 14rem;
     }
 }
@@ -95,35 +109,42 @@ body {
     #head {
         display: none;
     }
-    #head2{
+
+    #head2 {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
-    #heading2{
-        text-align: center; 
+
+    #heading2 {
+        text-align: center;
         font-size: 4rem;
         display: inline;
     }
-    #logo_block{
+
+    #logo_block {
         text-align: center;
         display: flex;
         justify-content: center;
     }
+
     #training_row2 {
         column-gap: 10rem;
-        row-gap: 1.5rem;
+        row-gap: 1.2rem;
         max-width: 20rem;
         margin-top: 0;
     }
-    #image{
+
+    #image {
         width: 13rem;
     }
+
     #logo {
         width: 8rem;
     }
+
     #training_main {
         row-gap: 1rem;
     }
