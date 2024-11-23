@@ -1,4 +1,3 @@
-
 body{
     background-image: url('../resources/abhyaas_body_bg.jpg');
 }
@@ -41,16 +40,34 @@ body{
 
 
 
+@media (max-width: 864px){
+    #logo{
+        width: 10rem;
+    }
+    #services_image, #training_image{
+        width: 18rem;
+    }
+    #contact_image{
+        width: 18rem;
+    }
+    #main{
+        row-gap: 2rem;
+    }
+    #row2{
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+}
 
 @media (max-width: 500px){
     #logo{
         width: 10rem;
     }
     #services_image, #training_image{
-        width: 20rem;
+        width: 18rem;
     }
     #contact_image{
-        width: 20rem;
+        width: 18rem;
     }
     #icon1, #icon2, #icon3, #icon4{
         width: 2.5rem;
@@ -68,10 +85,3 @@ body{
         width: 2rem;
     }
 }
-
-
-
-
-
-
-
