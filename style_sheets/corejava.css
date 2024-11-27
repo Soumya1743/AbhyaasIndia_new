@@ -16,10 +16,20 @@
     border: 1px solid rgb(202, 202, 202);
     border-radius: 10px;
 }
+#jfs_block1 {
+    display: flex;
+    column-gap: 2rem;
+}
+#abhyaasindia_logo {
+    width: 9rem;
+}
 #jfs_heading {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
     color: #0071FC;
+}
+#jfs_heading #bold {
+    color: #FE0000;
 }
 #quote {
     font-size: 1.2rem;
@@ -129,17 +139,9 @@
         border-radius: 10px;
     }
 }
-/* 
-@media (max-width: 500px) {
-    #jfs_first {
-        width: 100%;
-        padding-top: 1rem;
+
+@media (max-width: 340px) {
+    #syllabus_block1 {
+        font-size: 0.8rem;
     }
-    #jfs_second, #jfs_second_disable {
-        width: 100%;
-        height: max-content;
-        text-align: center;
-        border: 1px solid rgb(202, 202, 202);
-        border-radius: 10px;
-    }
-} */
+}
