@@ -176,6 +176,11 @@
     }
 }
 
+@media (max-width: 380px) {
+    #syllabus_block1 {
+        font-size: 0.9rem;
+    }
+}
 @media (max-width: 340px) {
     #syllabus_block1 {
         font-size: 0.8rem;
