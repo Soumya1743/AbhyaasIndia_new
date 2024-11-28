@@ -33,7 +33,6 @@
 }
 #quote {
     font-size: 1.2rem;
-    color: gray;
 }
 #stars_red {
     width: 7rem;
@@ -42,24 +41,31 @@
     display: flex;
     justify-content: space-around;
 }
-#dark {
-    width: 4rem;
-}
-#light {
-    width: 4rem;
-}
 
 #jfs_block2 {
     padding-top: 3.5rem;
 }
 
 #heaidng_syllabus {
-    color: gray;
     font-size: 2.5rem;
 }
 #syllabus_block1 {
     color: black;
     font-size: 1rem;
+}
+#headingOne, 
+#headingTwo, 
+#headingThree, 
+#headingFour, 
+#headingFifth, 
+#headingSixth, 
+#headingSeventh, 
+#headingEighth, 
+#headingNinth, 
+#headingTenth, 
+#headingEleventh, 
+#headingTwelfth {
+    background-color: white;
 }
 #syllabus_contents_list {
     margin: 0.5rem;
@@ -95,12 +101,7 @@
     vertical-align: top;
 }
 #price {
-    color: rgb(0, 208, 0);
-}
-#offer {
-    text-decoration: line-through;
-    font-size: 1.5rem;
-    color: gray;
+    color: #FE0000;
 }
 #details {
     padding-top: 4rem;
