@@ -32,10 +32,11 @@
 #jfs_heading {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
-    color: #FE0000;
+    color: #0071FC;
 }
 #jfs_heading #bold {
-    color: #0071FC;
+    
+    color: #FE0000;
 }
 #quote {
     font-size: 1.2rem;
@@ -63,11 +64,6 @@
 #headingTwo, 
 #headingThree, 
 #headingFour, 
-#headingFifth, 
-#headingSixth, 
-#headingSeventh, 
-#headingEighth, 
-#headingNinth, 
 #headingTenth, 
 #headingEleventh, 
 #headingTwelfth,
@@ -75,7 +71,25 @@
 #headingFourteenth,
 #headingFifteenth,
 #headingSixteenth,
-#headingSeventeenth {
+#headingSeventeenth,
+#headingEighteenth,
+#headingNineteenth,
+#headingTwentyfirst,
+#headingTwentysecond,
+#headingTwentythird,
+#headingTwentyfourth,
+#headingTwentyfifth,
+#headingTwentysixth,
+#headingTwentyseventh,
+#headingTwentyeighth,
+#headingTwentynineth,
+#headingThirtyfirst,
+#headingThirtysecond,
+#headingThirtythird,
+#headingThirtyfourth,
+#headingThirtyfifth,
+#headingThirtysixth,
+#headingThirtyseventh {
     background-color: white;
 }
 #syllabus_contents_list {
@@ -176,11 +190,6 @@
     }
 }
 
-@media (max-width: 400px) {
-    #syllabus_block1 {
-        font-size: 0.9rem;
-    }
-}
 @media (max-width: 340px) {
     #syllabus_block1 {
         font-size: 0.8rem;
