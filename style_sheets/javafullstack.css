@@ -32,10 +32,10 @@
 #jfs_heading {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
-    color: #0071FC;
+    color: #FE0000;
 }
 #jfs_heading #bold {
-    color: #FE0000;
+    color: #0071FC;
 }
 #quote {
     font-size: 1.2rem;
@@ -70,7 +70,12 @@
 #headingNinth, 
 #headingTenth, 
 #headingEleventh, 
-#headingTwelfth {
+#headingTwelfth,
+#headingTirteenth,
+#headingFourteenth,
+#headingFifteenth,
+#headingSixteenth,
+#headingSeventeenth {
     background-color: white;
 }
 #syllabus_contents_list {
@@ -177,7 +182,7 @@
     }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 310px) {
     #syllabus_block1 {
         font-size: 0.6rem;
     }
