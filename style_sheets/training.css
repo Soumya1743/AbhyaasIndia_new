@@ -60,6 +60,37 @@ body {
     height: 3rem;
 }
 
+#jfs_navigation {
+    position: fixed;    
+    top: 0;
+}
+#back_to_home {
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    display: flex;
+    column-gap: 1rem;
+}
+#anchor {
+    width: 10rem;
+    text-decoration: none;
+}
+#home_button {
+    font-size: 2rem;
+}
+#back_to_home:hover {
+    box-shadow: 0px 0px 20px rgb(189, 189, 189);
+    transition: all 0.5s ease-in-out;
+}
+#back_arrow {
+    width: 3rem;
+    margin-top: 1.7rem;
+}
 
 @media (max-width: 848px) {
     #child_1 {
@@ -86,6 +117,12 @@ body {
     }
     #image {
         width: 14rem;
+    }
+}
+
+@media (max-width: 730px) {
+    #span_home {
+        display: none;
     }
 }
 
