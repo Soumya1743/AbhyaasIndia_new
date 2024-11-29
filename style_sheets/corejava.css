@@ -4,6 +4,7 @@
     column-gap: 2rem;
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
+    margin-top: 7rem;
 }
 #jfs_first {
     width: 50rem;
@@ -44,10 +45,38 @@
     width: 7rem;
 }
 #jfs_navigation {
-    display: flex;
-    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem 0rem 2rem 0.5rem;
+    top: 0;
 }
-
+#hr {
+    margin-top: 0;
+}
+#back_to_home, #back_to_trainings {
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    color: #FF0000;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+#back_to_trainings {
+    color: #0071FC;
+}
+#back_to_home:hover, #back_to_trainings:hover {
+    box-shadow: 0px 0px 20px rgb(189, 189, 189);
+    transition: all 0.5s ease-in-out;
+}
+#next_arrow {
+    width: 2.3rem;
+}
 #jfs_block2 {
     padding-top: 3.5rem;
 }
@@ -121,6 +150,7 @@
     #javafullstack {
         display: flex;
         flex-wrap: wrap-reverse;
+        margin-top: 3.5rem;
     }
     #jfs_second {
         display: none;
@@ -168,6 +198,15 @@
     }
     #quote {
         font-size: 1rem;
+    }
+    #back_to_home, #back_to_trainings {
+        padding: 0.2rem;
+        margin-top: 0.2rem;
+        border-radius: 6px;
+        font-size: 0.5rem;
+    }
+    #next_arrow {
+        width: 1.2rem;
     }
 }
 
