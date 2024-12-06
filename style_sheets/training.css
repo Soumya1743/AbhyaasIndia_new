@@ -1,7 +1,6 @@
 body {
     background-image: url('../resources/trainings_bg.png');
     background-size: cover;
-    background-repeat: no-repeat;
 }
 #training_main {
     display: flex;
@@ -27,10 +26,10 @@ body {
 #heading,
 #heading2 {
     color: #FE0000;
+    font-family: 'Times New Roman', Times, serif;
 }
 #head2_heading {
     font-size: 2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #logo {
     width: 10rem;
@@ -44,7 +43,7 @@ body {
     max-width: 55rem;
 }
 #image {
-    width: 25rem;
+    width: 20rem;
 }
 #training_row3 {
     display: flex;
@@ -77,11 +76,7 @@ body {
     column-gap: 1rem;
 }
 #anchor {
-    width: 10rem;
     text-decoration: none;
-}
-#home_button {
-    font-size: 2rem;
 }
 #back_to_home:hover {
     box-shadow: 0px 0px 20px rgb(189, 189, 189);
@@ -89,7 +84,10 @@ body {
 }
 #back_arrow {
     width: 3rem;
-    margin-top: 1.7rem;
+    margin-top: 0.5rem;
+    border: 1px solid  #0071FC;
+    border-radius: 50%;
+    padding: 1rem 0.8rem;
 }
 
 @media (max-width: 848px) {
@@ -157,9 +155,19 @@ body {
         width: 13rem;
     }
     #logo {
-        width: 8rem;
+        width: 5rem;
     }
     #training_main {
         row-gap: 1rem;
+    }
+    #back_arrow {
+        width: 1.5rem;
+    }
+    #blue_icon1,
+    #blue_icon2,
+    #blue_icon3,
+    #blue_icon4 {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }

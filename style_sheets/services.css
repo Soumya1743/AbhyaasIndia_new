@@ -174,4 +174,11 @@ body {
     #back_arrow {
         width: 1.5rem;
     }
+    #blue_icon1,
+    #blue_icon2,
+    #blue_icon3,
+    #blue_icon4 {
+        width: 3rem;
+        height: 3rem;
+    }
 }
