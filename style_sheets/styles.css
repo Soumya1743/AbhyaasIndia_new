@@ -1,6 +1,5 @@
 body{
     background-image: url('../resources/abhyaas_body_bg.jpg');
-    height: 100vh;
 }
 #main{
     display: flex;

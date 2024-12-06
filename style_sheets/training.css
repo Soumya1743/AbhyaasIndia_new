@@ -1,7 +1,6 @@
 body {
     background-image: url('../resources/trainings_bg.png');
     background-size: cover;
-    height: 100vh;
 }
 #training_main {
     display: flex;
