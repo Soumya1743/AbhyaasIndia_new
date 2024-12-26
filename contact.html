@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AbhyaasIndia_training</title>
+    <title>AbhyaasIndia_contactus</title>
     <link rel="icon" href="resources/abhyaas_logo.png">
     <link rel="stylesheet" href="style_sheets/contact.css">
 </head>
@@ -13,8 +13,9 @@
     <img src="resources/contactus/left_triangle2.png" alt="" id="left_triangle">
     <span id="span1"><img src="resources/contactus/logo_in_contactus.png" alt="" id="logo_contact"></span>
     <h1 id="contact_heading">CONTACT US</h1>
-    <center><h1 id="contact_heading_disable">CONTACT US</h1></center>
-
+    <center>
+        <h1 id="contact_heading_disable">CONTACT US</h1>
+    </center>
 
     <div id="contact_main">
         <div id="section1">
@@ -30,12 +31,36 @@
             </div>
         </div>
         <div id="section2">
-            <input type="text" placeholder="First Name" id="fname"><br>
-            <input type="email" placeholder="Email" id="email"><br>
-            <textarea placeholder="Type your Message..." id="textarea"></textarea><br>
-            <button id="send">Send</button>
+            <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+                <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c75ce6be-4349-4a90-ab99-fa70a771a77a">
+                <input type="text" name="First Name" placeholder="First Name" id="fname" class="input" required><br>
+                <input type="email" name="Email" placeholder="Email" id="email" class="input" required><br>
+                <textarea name="Message" placeholder="Type your Message..." id="textarea" class="input"></textarea><br>
+                <button type="submit" id="send">Send</button>
+                </form>
+            <!-- </form> -->
         </div>
     </div>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "soumyarangaiahgari417@gmail.com",
+                Password: "Soumya-0417",
+                To: 'soumyarangaiahgari043@gmail.com',
+                From: document.getElementById('email').value,
+                Subject: "New Contect Form Enquiry",
+                Body: "Name: " + document.getElementById("fname").value +
+                 "<br> Emain : " + document.getElementById("email").value
+            }).then(
+                message => alert("Message Sent Successfully")
+            );
+        }
+    </script> -->
 </body>
 
 </html>
