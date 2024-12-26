@@ -1,5 +1,5 @@
 #contact_body {
-    background: linear-gradient(#FE0000, #fff7f9);
+    background: linear-gradient(#0071FC, #fff7f9);
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -10,7 +10,7 @@
     width: 20%;
 }
 #contact_heading {
-    color: #0071FC;
+    color: #FE0000;
     font-size: 4rem;
     font-weight: 100;
     letter-spacing: 5px;
@@ -106,7 +106,7 @@
     }
     #contact_heading_disable {
         display: block;
-        color: #0071FC;
+        color: #FE0000;
         font-size: 2rem;
         font-weight: 100;
         letter-spacing: 5px;
